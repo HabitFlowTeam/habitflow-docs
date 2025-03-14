@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="545D1EEF-B514-3608-FB65-22CFBBBD053D">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 21:58:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

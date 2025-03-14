@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B2E196C3-D9FF-95A9-5F24-651CAE10ECF1" mainViewID="FCBEEAD0-4E38-FCAA-6179-82B95FA304DB">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 21:58:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E47070B6-BC3C-ED7D-CA8D-042FCF0400E0" name="FRECUENCY">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:08:40 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="73CB4E2E-0CA8-8E69-F05D-1FF3395714FA">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:08:45 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="77B0E614-58EE-CD1E-E0A0-8A8E91DB30E6">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:08:52 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="freqByDay" id="865EAE3C-D53C-24C3-EC5B-846710B4F7F7">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:46:58 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3AAE4603-7C9A-E782-3AAC-DA1AF3F5B7D2" name="FRECUENCY PK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:08:51 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73CB4E2E-0CA8-8E69-F05D-1FF3395714FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

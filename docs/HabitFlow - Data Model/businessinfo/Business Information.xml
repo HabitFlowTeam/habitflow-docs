@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="40F6096F-03A9-6A31-A25D-9B0ED40CB493">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 21:58:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

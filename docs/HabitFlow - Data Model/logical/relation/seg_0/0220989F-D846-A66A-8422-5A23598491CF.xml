@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HABIT-HABIT_LOG" directorySegmentName="seg_0" id="0220989F-D846-A66A-8422-5A23598491CF">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:14:23 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<sourcePk>991936ED-3C94-D870-D0DB-5E4594C26FB4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>82E019E1-569C-56CF-34A4-6639619CA63A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8133F6AC-4F92-54C9-8B01-CA318DFF3ACE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82E019E1-569C-56CF-34A4-6639619CA63A" name="HABIT">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 21:59:45 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="CCE337AE-9920-C006-A109-FC3B432B7639">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:06:16 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="05FBF943-007A-1FAA-27E6-0B729561E5D7">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:06:24 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reminder_time" id="650B0C5F-AD22-7178-CF27-3E85A5B45BAB">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:06:45 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duration" id="26650D9C-722D-4D8F-F9AA-2098C09D3798">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:07:31 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isCancell" id="0AA0266C-2877-CBDE-C5DF-F475471C9B2F">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:46:32 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="57E14E4D-034D-2388-AA15-5DF134A79751">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:07:43 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="1232E2B6-FB65-0D13-1E9D-AB72599EAC8D">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:09:37 UTC</createdTime>
+<generatorID>E0D24236-0147-F0BE-2D19-E34CB9A6ACE8</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<referedAttribute>9E3CD50F-405C-7B81-D2EC-A21D140B0A4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="D9E999C9-1AAA-DE36-2313-F82370F1196C">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:10:56 UTC</createdTime>
+<generatorID>A4B712BD-C62D-00D2-1C40-CA03E3EF0F1A</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<referedAttribute>73CB4E2E-0CA8-8E69-F05D-1FF3395714FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="D981BD55-CC74-482C-A914-73089C565453">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:11:46 UTC</createdTime>
+<generatorID>F44D946A-EB65-2AD6-6B69-FA125AAEF6A7</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<referedAttribute>B3A86C9F-6603-FFAC-5721-9ADA444891D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="991936ED-3C94-D870-D0DB-5E4594C26FB4" name="HABIT PK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-14 22:06:22 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCE337AE-9920-C006-A109-FC3B432B7639</attributeRef>
+<attributeRef>1232E2B6-FB65-0D13-1E9D-AB72599EAC8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
