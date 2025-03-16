@@ -52,6 +52,34 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="E950BC83-0319-B03B-4986-4BDD734D250E">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:44:58 UTC</createdTime>
+<generatorID>6D2FF52D-8C17-CF98-52E3-3129402659D8</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<referedAttribute>D96FA4FD-BEF1-2CB6-4354-A6DC23CD1475</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="7E585C8B-75E4-E756-F867-5431BCCB8DB9">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:48:32 UTC</createdTime>
+<generatorID>0F0EE847-12E8-033C-41AE-2E3AAD0F2D65</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<referedAttribute>B3A86C9F-6603-FFAC-5721-9ADA444891D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6204CF7F-98D4-E67F-C55D-742A651E6F7F" name="COMMENT PK">

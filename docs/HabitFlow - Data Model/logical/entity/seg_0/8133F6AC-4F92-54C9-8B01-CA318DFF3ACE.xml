@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8133F6AC-4F92-54C9-8B01-CA318DFF3ACE" name="HABIT_TRACK">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8133F6AC-4F92-54C9-8B01-CA318DFF3ACE" name="HABIT_TRACKING">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:00:58 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
@@ -27,20 +27,7 @@
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="3E0838B9-0E66-01FC-20CE-9EE56DA85F0D">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:11:17 UTC</createdTime>
-<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
-<engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="isChecked" id="D05FDD58-DC3A-3BDE-B7C0-9FC3AB71C43B">
+<Attribute name="is_checked" id="D05FDD58-DC3A-3BDE-B7C0-9FC3AB71C43B">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:42:57 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
@@ -65,6 +52,19 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="comment" id="7F65C4FB-F84A-D71A-9E87-5BAB767F4DA2">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:16:50 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id2" id="853AB317-63A9-7D75-E5B7-09CFCCECD937">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:14:23 UTC</createdTime>
@@ -74,20 +74,6 @@
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
 </engineerTo>
 <referedAttribute>CCE337AE-9920-C006-A109-FC3B432B7639</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id11" id="9FF51381-D9E0-F898-35DE-3BC0043BEE31">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:14:23 UTC</createdTime>
-<generatorID>0220989F-D846-A66A-8422-5A23598491CF</generatorID>
-<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
-<engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
-</engineerTo>
-<referedAttribute>1232E2B6-FB65-0D13-1E9D-AB72599EAC8D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
@@ -105,8 +91,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FF9CB50B-060F-CC92-8F18-ED175D6D6174</attributeRef>
-<attributeRef>853AB317-63A9-7D75-E5B7-09CFCCECD937</attributeRef>
-<attributeRef>9FF51381-D9E0-F898-35DE-3BC0043BEE31</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

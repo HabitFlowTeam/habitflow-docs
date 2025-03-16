@@ -40,31 +40,19 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="reminder_time" id="650B0C5F-AD22-7178-CF27-3E85A5B45BAB">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:06:45 UTC</createdTime>
+<Attribute name="description" id="447825E7-719C-C76E-F4E0-435367E359C3">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:11:58 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="duration" id="26650D9C-722D-4D8F-F9AA-2098C09D3798">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:07:31 UTC</createdTime>
-<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
-<engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="isCancell" id="0AA0266C-2877-CBDE-C5DF-F475471C9B2F">
+<Attribute name="is_canceled" id="0AA0266C-2877-CBDE-C5DF-F475471C9B2F">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:46:32 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
@@ -89,6 +77,30 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="expiration_date" id="877DB5F1-8ED1-09DD-1708-3B95A850B6E1">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:19:30 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frequency_per_day" id="FA4984E8-60FC-4BAD-73F8-D67CEBBA897D">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:23:36 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id1" id="1232E2B6-FB65-0D13-1E9D-AB72599EAC8D">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:09:37 UTC</createdTime>
@@ -98,20 +110,6 @@
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
 </engineerTo>
 <referedAttribute>9E3CD50F-405C-7B81-D2EC-A21D140B0A4F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id2" id="D9E999C9-1AAA-DE36-2313-F82370F1196C">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:10:56 UTC</createdTime>
-<generatorID>A4B712BD-C62D-00D2-1C40-CA03E3EF0F1A</generatorID>
-<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
-<engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
-</engineerTo>
-<referedAttribute>73CB4E2E-0CA8-8E69-F05D-1FF3395714FA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
@@ -143,7 +141,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CCE337AE-9920-C006-A109-FC3B432B7639</attributeRef>
-<attributeRef>1232E2B6-FB65-0D13-1E9D-AB72599EAC8D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

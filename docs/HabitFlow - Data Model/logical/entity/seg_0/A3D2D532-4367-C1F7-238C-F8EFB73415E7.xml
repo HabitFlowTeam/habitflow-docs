@@ -78,7 +78,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="image_url" id="DA7A91A9-4993-5B92-5260-A6DC5E251AF4">
+<Attribute name="avatar_url" id="DA7A91A9-4993-5B92-5260-A6DC5E251AF4">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:34:42 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>

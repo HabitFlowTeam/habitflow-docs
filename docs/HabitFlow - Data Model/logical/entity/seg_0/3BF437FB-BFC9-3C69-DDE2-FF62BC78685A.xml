@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2A223B6-DCF8-5AF5-F52A-4D3E6CBC4315" name="LEVEL">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:39:36 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BF437FB-BFC9-3C69-DDE2-FF62BC78685A" name="LEAGUE">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:31:21 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="7E8B268C-59A7-D337-4282-F23AD43BB537">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:39:44 UTC</createdTime>
+<Attribute name="id" id="6F519325-A67F-2FEA-9F85-F829A219D435">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:41:28 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
@@ -27,42 +27,42 @@
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="min_points" id="BC742844-C22C-1FFC-7AB2-D92D11121030">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:39:50 UTC</createdTime>
+<Attribute name="name" id="BB4CC5D3-DE0F-1F25-11E1-118FABAC08FC">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:41:41 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="max_points" id="D3A69F28-54B2-20CB-3613-373453392550">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:40:16 UTC</createdTime>
+<Attribute name="capacity" id="823A55FF-18CA-9FE7-0EDD-887980A2DB2F">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:43:36 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DD8DF448-8AF4-2139-1B42-5081BDDDE259" name="LEVEL PK">
-<createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:39:48 UTC</createdTime>
+<identifier id="45FCE106-1348-0E72-D281-789D8D14892A" name="LEAGUE PK">
+<createdBy>esteban</createdBy>
+<createdTime>2025-03-16 22:41:40 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7E8B268C-59A7-D337-4282-F23AD43BB537</attributeRef>
+<attributeRef>6F519325-A67F-2FEA-9F85-F829A219D435</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
