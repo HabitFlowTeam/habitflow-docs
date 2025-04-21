@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9BEDB02-624C-3680-396F-DD5868E315C8" name="ROLE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D54255F-2783-CF7D-B117-0C5467818B98" name="WEEK_DAY">
 <createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:15:32 UTC</createdTime>
+<createdTime>2025-04-21 00:50:22 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="50D6D611-1AB2-56AD-57C1-191816BBDBF0">
+<Attribute name="id" id="59809373-3050-0C86-97D4-F127FAB0D0C3">
 <createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:16:33 UTC</createdTime>
+<createdTime>2025-04-21 00:50:40 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
@@ -28,9 +28,9 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="9EAB4B43-9961-4C7C-802A-A59F6D0D88C3">
+<Attribute name="name" id="AEA9B980-BF76-E985-31C7-BBB623FF522C">
 <createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:16:40 UTC</createdTime>
+<createdTime>2025-04-21 00:50:46 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
@@ -38,21 +38,34 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="abbreviation" id="308887B4-D133-2904-BD65-E63F82209748">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 00:50:54 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="50C6568B-2790-2542-CDC5-2B62488B9CEB" name="ROLE PK">
+<identifier id="7068DC77-B677-234E-CA96-9DACD2F43127" name="WEEK_DAY PK">
 <createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:16:39 UTC</createdTime>
+<createdTime>2025-04-21 00:50:45 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>50D6D611-1AB2-56AD-57C1-191816BBDBF0</attributeRef>
+<attributeRef>59809373-3050-0C86-97D4-F127FAB0D0C3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

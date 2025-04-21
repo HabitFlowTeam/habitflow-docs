@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D8280D6-2146-88FB-08BD-5A48DEAB7C05" containerWithKeyObject="544F4DE0-ABFD-A073-86FB-1B3DBA7E5BE2" localFKIndex="D73A7F8E-A059-D77D-DBFC-1461E05A63AA" name="HABIT_DAY_HABIT_FK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<generatorID>0F3B7979-C4A5-6A3B-14F1-BA463170CDA0</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<referredTableLongName>HABIT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB95B7F8-8DA9-FDEB-57D1-5B84BEAD33D7</referredTableID>
+<keyObject>5BD7739A-4871-4DDB-2508-81A6EAB24BCA</keyObject>
+<referredKeyID>5BD7739A-4871-4DDB-2508-81A6EAB24BCA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

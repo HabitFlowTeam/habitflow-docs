@@ -1,21 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLASSIFICATION_HISTORY" directorySegmentName="seg_0" id="5734687C-B899-54FB-C584-57319F020720">
-<createdBy>esteban</createdBy>
-<createdTime>2025-03-16 22:35:12 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARTICLE_SAVED" directorySegmentName="seg_0" id="3780EBF8-1435-D467-CC0E-8A75D3A0D628">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:10:25 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
 </engineerTo>
-<sourcePk>FDAECBCC-F802-B4D0-3588-582F04E6ADFB</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
+<nameOnSource>saves</nameOnSource>
 <nameOnTarget>has</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>A3D2D532-4367-C1F7-238C-F8EFB73415E7</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>0EF6C569-3066-45D7-6B50-3129551D9B0F</targetEntity>
+<targetEntity>24BA8C8D-D702-C573-2E6D-EDFA825273AF</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

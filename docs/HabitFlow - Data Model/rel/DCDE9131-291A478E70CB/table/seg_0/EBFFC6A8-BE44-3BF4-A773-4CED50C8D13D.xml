@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBFFC6A8-BE44-3BF4-A773-4CED50C8D13D" name="WEEK_DAYS">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>6D54255F-2783-CF7D-B117-0C5467818B98</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<ordsAlias>week_day</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E2268ACE-BC67-08B6-6BD7-7D619CBDD0D6">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>59809373-3050-0C86-97D4-F127FAB0D0C3</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B9D40AE8-4143-4A3E-D82B-22785187612B">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>AEA9B980-BF76-E985-31C7-BBB623FF522C</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="abbreviation" id="4D03029C-B888-9E30-752C-851C12F0EB03">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>308887B4-D133-2904-BD65-E63F82209748</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CBB152E-479C-B6CD-3936-9702EED8BE00" name="WEEK_DAY_PK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>7068DC77-B677-234E-CA96-9DACD2F43127</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2268ACE-BC67-08B6-6BD7-7D619CBDD0D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

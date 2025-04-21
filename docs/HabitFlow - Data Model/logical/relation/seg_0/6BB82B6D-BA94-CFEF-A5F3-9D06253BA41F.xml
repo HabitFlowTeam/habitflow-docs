@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARTICLE_LIKED" directorySegmentName="seg_0" id="6BB82B6D-BA94-CFEF-A5F3-9D06253BA41F">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:08:22 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>likes</nameOnSource>
+<nameOnTarget>has</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A3D2D532-4367-C1F7-238C-F8EFB73415E7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24BA8C8D-D702-C573-2E6D-EDFA825273AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

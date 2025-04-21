@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24BA8C8D-D702-C573-2E6D-EDFA825273AF" name="POST">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24BA8C8D-D702-C573-2E6D-EDFA825273AF" name="ARTICLE">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 21:59:55 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,19 +20,20 @@
 <createdTime>2025-03-14 22:19:08 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="title" id="079AD315-BAA2-D1A1-4011-751175B84347">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:25:44 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +46,7 @@
 <createdTime>2025-03-14 22:25:53 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,7 +58,7 @@
 <createdTime>2025-03-14 22:26:06 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,12 +67,24 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="is_deleted" id="7462705C-A4C3-B4D8-6F11-80612D524525">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 00:59:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="created_at" id="323E232C-DB98-1EBA-A00F-80C8330942B9">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:27:56 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,12 +97,28 @@
 <generatorID>679F6E1C-C256-58EF-7239-9B82474DEDA3</generatorID>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <referedAttribute>B3A86C9F-6603-FFAC-5721-9ADA444891D7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="6C9777EC-6BCF-A0D6-03BE-0FFA67527E30">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 00:59:11 UTC</createdTime>
+<generatorID>74F75D62-1EC9-654D-2010-6813CF46D5C0</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
+</engineerTo>
+<referedAttribute>9E3CD50F-405C-7B81-D2EC-A21D140B0A4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -99,7 +128,7 @@
 <createdTime>2025-03-14 22:19:14 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E06BBB30-A705-8266-23E6-E21FBD04C44A" name="HABITS_TRACKING">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>8133F6AC-4F92-54C9-8B01-CA318DFF3ACE</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<ordsAlias>habit_tracking</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="58BCCC7C-F314-83F4-8A8D-37A6190035DA">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>FF9CB50B-060F-CC92-8F18-ED175D6D6174</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_checked" id="0D320144-2ED4-0C25-AE3D-0F72C94F588B">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>D05FDD58-DC3A-3BDE-B7C0-9FC3AB71C43B</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="6AEC4EDA-4FA3-E720-493D-DE00DC84638A">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>F3CB433C-CBB8-CB34-8626-D9A813F8A293</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="habit_id" id="0E246DFB-2D7F-7F3E-62F7-0245C19AFB14">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>853AB317-63A9-7D75-E5B7-09CFCCECD937</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAE5A9DF-92A3-FEFD-FB0A-DFBFD601F3E4" referredColumn="9A4CBBA6-94AB-F3CC-C1AC-F08C9407D83F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4028FC6-0D73-9A30-7CF5-D5D6D5FF9AE7" name="HABIT_TRACKING_PK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>F21D61E7-25E0-2153-0F3C-BD677B938027</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58BCCC7C-F314-83F4-8A8D-37A6190035DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E3175AC-0ABB-F698-2017-1C7017D9D599" name="HABIT_TRACKING_HABIT_FK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<generatorID>0220989F-D846-A66A-8422-5A23598491CF</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E246DFB-2D7F-7F3E-62F7-0245C19AFB14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

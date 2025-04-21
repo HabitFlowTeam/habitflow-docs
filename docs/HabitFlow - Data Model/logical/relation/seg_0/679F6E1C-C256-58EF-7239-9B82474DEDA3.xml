@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER_POST" directorySegmentName="seg_0" id="679F6E1C-C256-58EF-7239-9B82474DEDA3">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER_ARTICLE" directorySegmentName="seg_0" id="679F6E1C-C256-58EF-7239-9B82474DEDA3">
 <createdBy>esteban</createdBy>
 <createdTime>2025-03-16 22:26:47 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
@@ -8,7 +8,7 @@
 </engineerTo>
 <sourcePk>FDAECBCC-F802-B4D0-3588-582F04E6ADFB</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
+<nameOnSource>creates</nameOnSource>
 <nameOnTarget>belongs to</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

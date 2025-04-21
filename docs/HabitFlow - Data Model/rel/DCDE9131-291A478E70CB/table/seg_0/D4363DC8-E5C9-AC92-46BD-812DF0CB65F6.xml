@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4363DC8-E5C9-AC92-46BD-812DF0CB65F6" name="ROLES">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>E9BEDB02-624C-3680-396F-DD5868E315C8</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<ordsAlias>role</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A05CC546-D1DC-F1B6-DA5B-3DD3DC0E22D5">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>50D6D611-1AB2-56AD-57C1-191816BBDBF0</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="85AEE2F0-AB63-F037-97BB-2089F3B14808">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>9EAB4B43-9961-4C7C-802A-A59F6D0D88C3</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCB5E336-D0B2-3E28-4FBA-B43C32C308BC" name="ROLE_PK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>50C6568B-2790-2542-CDC5-2B62488B9CEB</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A05CC546-D1DC-F1B6-DA5B-3DD3DC0E22D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

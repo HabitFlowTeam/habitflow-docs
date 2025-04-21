@@ -4,7 +4,7 @@
 <createdTime>2025-03-14 22:15:28 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,19 +20,20 @@
 <createdTime>2025-03-14 22:15:47 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="93949F12-9A8A-0DFA-6A11-2120FBBF5D4B">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:15:53 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +46,7 @@
 <createdTime>2025-03-14 22:16:03 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,7 +61,7 @@
 <createdTime>2025-03-14 22:15:52 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

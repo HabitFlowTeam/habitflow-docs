@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED5AABCE-6DEA-E17B-3B70-F0693405B8E2" name="ARTICLES_SAVED">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<ordsAlias>article_saved</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="E72086D5-66E2-448D-10F6-1A3E368B3614">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FDAD6A6-73ED-25A7-5BE7-C5D1A9A28843" referredColumn="B78846DB-C4EE-7071-4BA5-AE1084B27491"/>
+</associations>
+</Column>
+<Column name="article_id" id="CD5EA845-E38C-DC2D-19A0-217D236A0C27">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B729BAFB-809D-3B8D-00C7-58ACA97088FD" referredColumn="6218D842-2FC7-CF63-37B1-D8CC2BC80BF0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B50EB9E9-09A4-661D-7F1D-D0887AE63653" name="ARTICLE_SAVED_PK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E72086D5-66E2-448D-10F6-1A3E368B3614"/>
+<colUsage columnID="CD5EA845-E38C-DC2D-19A0-217D236A0C27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA32AD2A-E872-1BF9-C79C-95699DD2EAD5" name="ARTICLE_SAVED_USER_FK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:46 UTC</createdTime>
+<generatorID>3780EBF8-1435-D467-CC0E-8A75D3A0D628</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E72086D5-66E2-448D-10F6-1A3E368B3614"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D51049CA-D977-2D21-F3B6-8FA89E6B1796" name="ARTICLE_SAVED_ARTICLE_FK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<generatorID>3780EBF8-1435-D467-CC0E-8A75D3A0D628</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD5EA845-E38C-DC2D-19A0-217D236A0C27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER_HABIT" directorySegmentName="seg_0" id="F44D946A-EB65-2AD6-6B69-FA125AAEF6A7">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARTICLE_CATEGORY" directorySegmentName="seg_0" id="74F75D62-1EC9-654D-2010-6813CF46D5C0">
 <createdBy>Juan David Colonia</createdBy>
-<createdTime>2025-03-14 22:11:46 UTC</createdTime>
+<createdTime>2025-04-21 00:59:11 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
 </engineerTo>
-<sourcePk>FDAECBCC-F802-B4D0-3588-582F04E6ADFB</sourcePk>
+<sourcePk>2E86F914-43ED-4F93-B072-BCBD3CBB9DDE</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>creates</nameOnSource>
-<nameOnTarget>belongs to</nameOnTarget>
+<nameOnSource>related to</nameOnSource>
+<nameOnTarget>has</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>A3D2D532-4367-C1F7-238C-F8EFB73415E7</sourceEntity>
+<sourceEntity>4C160EFF-B40A-AF21-8BAD-2760847365D1</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>82E019E1-569C-56CF-34A4-6639619CA63A</targetEntity>
+<targetEntity>24BA8C8D-D702-C573-2E6D-EDFA825273AF</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -4,7 +4,7 @@
 <createdTime>2025-03-14 22:08:07 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,25 +20,39 @@
 <createdTime>2025-03-14 22:08:16 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="047ECFB7-31A0-B7AD-532E-E8F080B87A5A">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:08:23 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="46F3B7A7-A82F-8AC9-6441-9576C7D610A6">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:51:39 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<engineerTo>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -47,7 +61,7 @@
 <createdTime>2025-03-14 22:08:22 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
-<item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
+<item key="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

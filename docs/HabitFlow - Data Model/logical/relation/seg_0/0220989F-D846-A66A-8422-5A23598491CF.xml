@@ -9,7 +9,7 @@
 <sourcePk>991936ED-3C94-D870-D0DB-5E4594C26FB4</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>has</nameOnSource>
-<nameOnTarget>has</nameOnTarget>
+<nameOnTarget>related to</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

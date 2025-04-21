@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="544F4DE0-ABFD-A073-86FB-1B3DBA7E5BE2" name="HABITS_DAYS">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<ordsAlias>habit_day</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="habit_id" id="372403F8-FCB7-6449-B73D-FD4E4206E630">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D8280D6-2146-88FB-08BD-5A48DEAB7C05" referredColumn="9A4CBBA6-94AB-F3CC-C1AC-F08C9407D83F"/>
+</associations>
+</Column>
+<Column name="week_day_id" id="802662F6-3002-738F-6036-4F0988244E6A">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACD5E8C8-EBEF-A699-84AC-EF3508105313" referredColumn="E2268ACE-BC67-08B6-6BD7-7D619CBDD0D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69BB6C27-DB70-624E-C430-816DFAB97452" name="HABIT_DAY_PK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="372403F8-FCB7-6449-B73D-FD4E4206E630"/>
+<colUsage columnID="802662F6-3002-738F-6036-4F0988244E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D73A7F8E-A059-D77D-DBFC-1461E05A63AA" name="HABIT_DAY_HABIT_FK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<generatorID>0F3B7979-C4A5-6A3B-14F1-BA463170CDA0</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="372403F8-FCB7-6449-B73D-FD4E4206E630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6B26DC0-239A-1071-1BDC-0E09706D2DE7" name="HABIT_DAY_WEEK_DAY_FK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:47 UTC</createdTime>
+<generatorID>0F3B7979-C4A5-6A3B-14F1-BA463170CDA0</generatorID>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="802662F6-3002-738F-6036-4F0988244E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

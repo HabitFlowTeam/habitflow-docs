@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational" id="DCDE9131-EFBC-31F7-1D7B-291A478E70CB" mainViewID="034E1B18-D22D-76E5-DC40-BA74538BC904">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 01:29:11 UTC</createdTime>
+<ownerDesignName>HabitFlow - Data Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

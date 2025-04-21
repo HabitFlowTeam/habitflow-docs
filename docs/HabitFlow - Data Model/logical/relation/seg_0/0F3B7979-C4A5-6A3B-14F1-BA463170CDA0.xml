@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER_ROLE" directorySegmentName="seg_0" id="49C20463-5AA4-265F-51AB-DFBCCED17E94">
-<createdBy>esteban</createdBy>
-<createdTime>2025-03-16 22:06:52 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HABIT_DAY" directorySegmentName="seg_0" id="0F3B7979-C4A5-6A3B-14F1-BA463170CDA0">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-04-21 00:51:46 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <engineerTo>
 <item key="6DDA83DD-1592-3BBF-3E24-F5251C98D3EF" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
 <nameOnSource>has</nameOnSource>
-<nameOnTarget>belongs to</nameOnTarget>
+<nameOnTarget>related to</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>A3D2D532-4367-C1F7-238C-F8EFB73415E7</sourceEntity>
+<sourceEntity>82E019E1-569C-56CF-34A4-6639619CA63A</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>E9BEDB02-624C-3680-396F-DD5868E315C8</targetEntity>
+<targetEntity>6D54255F-2783-CF7D-B117-0C5467818B98</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
