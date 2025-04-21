@@ -1,32 +1,38 @@
-# 📱 HabitFlow App Documentation
+# 📱 HabitFlow – Documentation Repository
 
-The official repository for HabitFlow, a mobile app that helps users build and maintain habits through gamification and social engagement.
+Welcome to the official documentation repository for **HabitFlow**, a mobile application designed to help users build consistent habits through **gamification** and **social interaction**.
 
-## 🔍 Overview
+This repository centralizes all the resources related to the **database design**, **application prototype**, and **technical specifications** of the HabitFlow project.
 
-HabitFlow is designed to help users develop and maintain positive habits through an engaging, gamified experience. The app incorporates social elements to enhance motivation and accountability, making habit formation a more enjoyable and sustainable process.
+## ✒️ Authors
 
-## 🔗 Documentation Links
+- Esteban Gaviria Zambrano – A00396019  
+- Juan David Colonia Aldana – A00395956  
+- Juan Manuel Díaz Moreno – A00394477  
+- Miguel Ángel González Arango – A00395687  
+- Pablo Fernando Pineda Patiño – A00395831  
+
+## 📚 Project Documentation
 
 ### 💾 Database Design
 
-- [Entity-Relationship Model (MER)](https://github.com/HabitFlowTeam/habitflow-docs/blob/main/docs/HabitFlow%20-%20MER.pdf)
-- [Relational Model (MR)](https://github.com/HabitFlowTeam/habitflow-docs/blob/main/docs/HabitFlow%20-%20MR.pdf)
-- [SQL Schema Repository](https://github.com/HabitFlowTeam/habitflow-app/blob/main/sql/DLL.sql)
+- 📘 [Entity-Relationship Model (MER)](https://github.com/HabitFlowTeam/habitflow-docs/blob/main/docs/HabitFlow%20-%20MER.pdf)  
+- 📗 [Relational Model (MR)](https://github.com/HabitFlowTeam/habitflow-docs/blob/main/docs/HabitFlow%20-%20MR.pdf)  
+- 🧾 [SQL Schema – PostgreSQL](https://github.com/HabitFlowTeam/habitflow-app/blob/main/sql/DDL.sql)
 
 ### 🎨 Prototype Design
 
-- [Figma Design](https://www.figma.com/design/dbVplCrbgao8TioIymi7nk/Prototipo?node-id=0-1&t=4bA1rYqmv9TMi1RU-1)
-- [Figma Navigation Video](https://youtu.be/zyEZrdV4dG8)
+- 🖌️ [Figma Design](https://www.figma.com/design/dbVplCrbgao8TioIymi7nk/Prototipo?node-id=0-1&t=4bA1rYqmv9TMi1RU-1)  
+- 🎥 [Navigation Walkthrough (Video)](https://youtu.be/zyEZrdV4dG8)
 
-## ✨ Features
+## 🧭 About HabitFlow
 
-- Habit tracking and management
-- Gamification elements (points, achievements, levels)
-- Social connectivity and challenges
-- Progress visualization
-- Customizable reminders and notifications
+HabitFlow empowers users to develop daily habits by combining:
+- ✅ Task tracking and progress streaks  
+- 🏆 Gamified rewards  
+- 👥 Social interactions and shared challenges  
 
-## 📂 Project Structure
+---
 
-This repository contains the documentation for the HabitFlow app, including database models, design specifications, and implementation guidelines.
+For technical contributions, refer to the main app repository:  
+🔗 [habitflow-app](https://github.com/HabitFlowTeam/habitflow-app)
