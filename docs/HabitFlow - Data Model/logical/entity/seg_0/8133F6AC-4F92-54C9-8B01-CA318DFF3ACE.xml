@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT006</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="date" id="F3CB433C-CBB8-CB34-8626-D9A813F8A293">
+<Attribute name="tracking_date" id="F3CB433C-CBB8-CB34-8626-D9A813F8A293">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-03-14 22:12:18 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
@@ -65,7 +65,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

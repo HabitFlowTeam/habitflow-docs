@@ -8,13 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="article_id_1" id="32190F3A-F0AE-B9AC-2F0D-D9C78B2ED725">
+<Column name="user_id" id="32190F3A-F0AE-B9AC-2F0D-D9C78B2ED725">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-04-21 01:29:46 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -22,13 +23,14 @@
 <colAssociation fkAssociation="FF018681-6337-E78D-AE61-42B2D795081F" referredColumn="B78846DB-C4EE-7071-4BA5-AE1084B27491"/>
 </associations>
 </Column>
-<Column name="ARTICLE_id" id="E8A3906A-6A36-7D5D-B0B4-FF96278D1F1A">
+<Column name="article_id" id="E8A3906A-6A36-7D5D-B0B4-FF96278D1F1A">
 <createdBy>Juan David Colonia</createdBy>
 <createdTime>2025-04-21 01:29:46 UTC</createdTime>
 <ownerDesignName>HabitFlow - Data Model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
